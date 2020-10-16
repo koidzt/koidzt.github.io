@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 2.5em;
+    padding: 0.15em;
+}
+h2 {
+    font-size: 2em;
+    padding: 0.15em;
+}
+h3 {
+    font-size: 1.5em;
+    padding: 0.15em;
+}
+h4 {
+    font-size: 1.1em;
+    padding: 0.15em;
+}
+span{
+    padding: 0.15em;
+}
+div {
+    padding: 0.15em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(60, 100%, 95%);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    /* background-color: hsl(180, 100%, 95%); */
+    display: flex;
+    padding: 50px;
+    margin: 5px;
+    text-align: center;
+}
+.pic-profile{
+    display: flex;
+    justify-content: center;
+    border: 0.25em dashed hsl(216, 100%, 69%);
+    border-radius: 2.5em;
+}
+.header-Pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.name{
+    padding: 0.5em 0.5em 0.5em 50px ;
+}
+.educate{
+    padding: 0.25em 0.25em 0.25em 50px ;
+}
+.bechelor{
+    padding: 0.25em 0.25em 0.25em 50px ;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    flex-basis: 24em;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    /* font-size: 30px; */
+}
+.personal {
+    padding: 1em 5em;
+    width: 100%;
+}
+.text-personal{
+    text-align: center;
+}
+.contact {
+    padding: 2em 5em;
+    width: 100%;
+}
+.text-contact {
+    text-align: center;
+    padding: 0.15em 0em;
+}
+.head-text{
+    padding: 0.15em 0em;
+}
+.detail-text{
+    padding: 0.15em 0em 0.5em 0em;
+}
+
+.employment-history-head {
+    padding: 0.15em 0em 0.15em 0.35em;
+}
+.employment-history-text {
+    padding: 0.3em 0em 0.3em 0.5em;
+}
+
+ul {
+    list-style: inside;
+    width: 100%;
+    padding: 0.15em;
+}
+li {
+    padding: 0.15em;
+}
+
+main {
+    display: flex;
+    flex: 0 1 48em;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 1px solid #FFFFFF;
+    /* font-size: 30px; */
+}
+.employment-history{
+    padding: 1em;
+}
+.special-ability{
+    padding: 1em;
+}
+.qualification{
+    padding: 1em;
+}
+/* aside {
+    display: flex;
+    flex-basis: 12em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    font-size: 30px;
+    padding: 10px;
+
+} */
+/* .clip2 {
+    margin-top: 10px;
+} */
+
+/* footer {
+    background-color: #F0E68C;
+    padding: 40px;
+    text-align: center;
+} */
